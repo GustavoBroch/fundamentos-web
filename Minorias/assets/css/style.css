@@ -1,0 +1,121 @@
+/*
+Estilos index.html
+*/
+body{
+    background-color: #fbc531;
+}
+#menu{
+    padding-bottom: 5px;
+
+}
+#menu li{
+    display: inline;
+    padding: 15px;
+    background-color:   #f8d061;
+    border-radius: 5px;
+    margin: 2px;
+    border-width:2px;
+    border-style:solid;
+    border-color: #273c75
+}
+#menu li a{
+    text-decoration:none;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+}
+#menu li:hover{
+    background-color: #273c75 
+}
+#menu li a:hover{
+    color:#f8d061;
+}
+.center{
+    text-align: center;
+}
+
+.titulo{
+    
+    color: white;
+    font-family:monospace;
+    font-size: 50px;
+    text-shadow: 4px 4px #273c75;
+}
+
+.titulo2{
+    
+    color: white;
+    font-family:monospace;
+    font-size: 30px;
+    text-shadow: 4px 4px #273c75;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+.container p{
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: justify;
+    text-shadow: 2px 2px black;
+    padding: 30px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+.pd-30{
+    padding: 30px;
+}
+.container2{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*
+Estilo contato.html
+*/
+.labels{
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.input1{
+    width: 300px;
+    height: 25px;
+}
+.btn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    background-color:#f8d061;
+    color:white;
+    border-radius: 2px;
+}
+.btn:hover{
+    color:#f8d061;
+    background-color: #273c75 
+}
+.copyright{
+    color:#273c75 ;
+    font-size: 20px;
+    font-weight: bold;
+}
